@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Luca portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar has-shadow"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://www.instagram.com/prod.lucabeats/">
+          <img src="https://i.gyazo.com/c78ee61425b974b0128fcb93f9a177a5.png" />
+        </a>
+      </div>
+
+      <div class="navbar-menu">
+        <div class="navbar-start">
+        <a href="/index.html" class="navbar-item has-text-weight-bold p-5">
+            Home
+            </a>
+          <a href="/about.html" class="navbar-item has-text-weight-bold p-5">
+            About
+          </a>
+          <a href="/projects.html" class="navbar-item has-text-weight-bold p-5">
+            Projects
+          </a>
+          <a
+            href="/synthesis.html"
+            class="navbar-item has-text-weight-bold p-5"
+          >
+            Synthesis
+          </a>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a href="/contact.html" class="button is-black">
+                <strong>Contact</strong>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container is-widescreen section">
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical" style="align-items: center">
+          <div class="tile" style="max-width: 900px">
+            <div class="tile is-parent">
+                <article class="tile is-child has-text-centered">
+                    <h2 class="title is-2">Contact me</h2>
+                    <form action="" method="post">
+                        <div class="field">
+                            <label for="name" class="label has-text-weight-light"></label>
+                                <input type="text" name="name" id="name" class="input" placeholder="Name" autofocus>
+                        </div>
+                        <div class="field">
+                            <label for="email" class="label has-text-weight-light"></label>
+                                <input type="email" name="email" id="email" class="input" placeholder="Email">
+                        </div>
+                        <div class="field">
+                            <label for="message" class="label has-text-weight-light"></label>
+                            <textarea name="message" id="message" rows="10" class="textarea" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="button is-success is-size-5">Submit</button>
+                    </form>
+                </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
